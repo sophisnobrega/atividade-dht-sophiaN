@@ -1,8 +1,8 @@
 # SophiaN - Ativ.
 
-## DHT (Tabela de Hash Distribuída)
+## Introdução
 
-Neste documento, além de descrever a atividade desenvolvida, também abordaremos brevemente os casos de teste e o conceito de DHT.
+Neste documento, além de conter a atividade desenvolvida, também abordaremos brevemente os casos de teste e o conceito de DHT.
 
 ## Atividade Desenvolvida
 
