@@ -37,4 +37,5 @@ Sophia Nóbrega, estudante de Sistemas de Informação
 
 ### Referências
 [https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp](https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp) - <b>Univesp</b> - Repositório do Github
+[https://chat.openai.com/c/542e4f67-34c2-4232-9ef0-f50c78746d53](https://chat.openai.com/c/542e4f67-34c2-4232-9ef0-f50c78746d53) - <b>Chat GPT</b>
 
