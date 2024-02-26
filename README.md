@@ -1,4 +1,4 @@
-# SophiaN - Ativ.
+# Atividade DHT 
 
 ## Introdução
 
@@ -32,4 +32,9 @@ A DHT é amplamente utilizada em sistemas distribuídos, como redes peer-to-peer
 
 Compreender o funcionamento e os benefícios da DHT é crucial para o desenvolvimento e operação de sistemas distribuídos robustos e escaláveis.
 
-Nesse documento, além de conter a atividade desenvolvida, também terá uma breve explicação sobre casos de testes e DHT.
+### Autores
+Sophia Nóbrega, estudante de Sistemas de Informação 
+
+### Referências
+[https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp](https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp) - <b>Univesp</b> - Repositório do Github
+
