@@ -1,8 +1,8 @@
-# Atividade DHT 
+# DHT - Atividade
 
 ## Introdução
 
-Neste documento, além de conter a atividade desenvolvida, também abordaremos brevemente os casos de teste e o conceito de DHT.
+Neste documento, além de descrever a atividade desenvolvida, também abordaremos brevemente os casos de teste e o conceito de DHT.
 
 ## Atividade Desenvolvida
 
@@ -10,7 +10,46 @@ Neste documento, além de conter a atividade desenvolvida, também abordaremos b
 
 ## Casos de Teste
 
-Para garantir a robustez e confiabilidade do sistema, foram elaborados diversos casos de teste que abrangem diferentes cenários e condições de uso. Estes casos de teste foram projetados para validar o correto funcionamento do sistema em todas as suas funcionalidades, identificar possíveis falhas e assegurar a qualidade do software desenvolvido.
+Os casos de teste em DHT são essenciais para garantir a qualidade e confiabilidade dos sistemas distribuídos que utilizam esse componente. Eles validam o funcionamento correto da DHT, identificam falhas e bugs, garantem sua robustez e performance, além de contribuírem para a documentação e compreensão do sistema. Em resumo, os casos de teste são fundamentais para assegurar que a DHT opere de forma eficaz em diferentes cenários e condições.
+
+### Caso de Teste 1: Inserção de Item
+
+- **Pré-condição:** Uma DHT vazia.
+- **Etapas do Teste:**
+    1. Inserir um item na DHT.
+- **Pós-condição:** Verificar se o item foi corretamente inserido na posição adequada na DHT.
+
+### Caso de Teste 2: Recuperação de Item
+
+- **Pré-condição:** Uma DHT com pelo menos um item.
+- **Etapas do Teste:**
+    1. Recuperar um item da DHT.
+- **Pós-condição:** Verificar se o item recuperado é o mesmo que foi previamente inserido.
+
+### Caso de Teste 3: Remoção de Item
+
+- **Pré-condição:** Uma DHT com pelo menos um item.
+- **Etapas do Teste:**
+    1. Remover um item da DHT.
+- **Pós-condição:** Verificar se o item foi removido com sucesso da DHT.
+
+### Caso de Teste 4: Tratamento de Colisões
+
+- **Pré-condição:** Uma DHT onde dois itens têm o mesmo valor de hash.
+- **Etapas do Teste:**
+    1. Inserir um item na DHT com um valor de hash que colida com um item existente.
+- **Pós-condição:** Verificar se o tratamento de colisões está funcionando corretamente, ou seja, se o item é inserido corretamente sem substituir o item existente.
+
+### Caso de Teste 5: Verificação de Tamanho e Capacidade
+
+- **Pré-condição:** Uma DHT com um número específico de itens inseridos.
+- **Etapas do Teste:**
+    1. Verificar o tamanho atual da DHT.
+    2. Inserir ou remover itens conforme necessário.
+    3. Verificar novamente o tamanho da DHT.
+- **Pós-condição:** Garantir que o tamanho da DHT reflete as alterações feitas durante o teste e que não ultrapasse sua capacidade máxima.
+
+Esses casos de teste são apenas exemplos e devem ser ajustados de acordo com a implementação específica da sua DHT. 
 
 ## Tabela de Hash Distribuída (DHT)
 
@@ -32,10 +71,15 @@ A DHT é amplamente utilizada em sistemas distribuídos, como redes peer-to-peer
 
 Compreender o funcionamento e os benefícios da DHT é crucial para o desenvolvimento e operação de sistemas distribuídos robustos e escaláveis.
 
+Nesse documento, além de conter a atividade desenvolvida, também terá uma breve explicação sobre casos de testes e DHT.
+
 ### Autores
-Sophia Nóbrega, estudante de Sistemas de Informação 
+
+Sophia Nóbrega, estudante de Sistemas de Informação
 
 ### Referências
-[https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp](https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp) - <b>Univesp</b> - Repositório do Github <p>
-[https://chat.openai.com/c/542e4f67-34c2-4232-9ef0-f50c78746d53](https://chat.openai.com/c/542e4f67-34c2-4232-9ef0-f50c78746d53) - <b>Chat GPT</b>
+
+[https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp](https://github.com/Univesp-Computacao/estruturas-de-dados/blob/main/tabela-hash/hash_application.cpp) - **Univesp** Repositório do Github
+
+[https://chat.openai.com/c/542e4f67-34c2-4232-9ef0-f50c78746d53](https://chat.openai.com/c/542e4f67-34c2-4232-9ef0-f50c78746d53) - **Chat GPT**
 
